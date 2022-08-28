@@ -1,4 +1,14 @@
-h1, h2, h3, h4, p, li {
+/* Universal selector. No inheritance. */
+* {
+  /* border-top: 10px solid *1098ad; */
+}
+
+/*
+Not all properties are inherited.
+Mostly ones related to text.
+*/
+body {
+  border-top: 10px solid #1098ad;
   color: #444444;
   font-family: sans-serif;
 }
@@ -73,6 +83,14 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+/* nav a:link {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
 }
 
 /* ul {
