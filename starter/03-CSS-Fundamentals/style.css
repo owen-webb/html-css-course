@@ -79,6 +79,7 @@ aside {
   border-bottom: 5px solid #1098ad;
   border-top: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 
 /* LVHA */
@@ -142,12 +143,18 @@ nav {
 
 .main-header {
   background-color: #f7f7f7;
+  height: 80px;
   padding: 20px 40px;
   margin-bottom: 60px;
 }
 
 .post-header {
   margin-bottom: 40px;
+}
+
+.post-image {
+  height: auto;
+  width: 100%;
 }
 
 /* Resolving conflicts. */
