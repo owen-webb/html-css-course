@@ -103,9 +103,21 @@ a:active {
   font-style: italic;
 }
 
-/* nav a:link {
-  font-size: 18px;
-} */
+nav a:link {
+  /* font-size: 18px;
+  background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
 
 nav {
   font-size: 18px;
@@ -148,7 +160,7 @@ nav {
 
 .main-header {
   background-color: #f7f7f7;
-  height: 80px;
+  /* height: 80px; */
   padding: 20px 40px;
   margin-bottom: 60px;
 }
