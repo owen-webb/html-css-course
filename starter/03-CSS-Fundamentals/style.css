@@ -13,6 +13,7 @@ body {
   border-top: 10px solid #1098ad;
   color: #444444;
   font-family: sans-serif;
+  position: relative;
 }
 
 article {
@@ -29,9 +30,28 @@ h1 {
   text-transform: uppercase;
 }
 
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
+  position: relative;
+}
+
+h2::after {
+  background-color: #ffe70e;
+  color: #444444;
+  content: "TOP";
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  right: -25px;
+  top: -10px;
 }
 
 h3 {
@@ -49,6 +69,10 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 50px;
+}
+
+h3 + p::first-line {
+  /* color: red */
 }
 
 ul, ol {
@@ -123,6 +147,15 @@ nav {
   font-size: 18px;
 }
 
+button {
+  bottom: 50px;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  right: 50px;
+}
+
 /* ul {
   list-style: none;
 } */
@@ -146,6 +179,7 @@ nav {
 
 .container {
   margin: 0 auto;
+  /* position: relative; */
   width: 800px;
 }
 
