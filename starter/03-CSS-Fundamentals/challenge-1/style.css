@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+/* Use classes for all styling other than body. */
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  background-color: black;
+  border: 0;
+  border-top: 4px solid black;
+  color: white;
+  padding: 20px 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.black-option {
+  background-color: black;
+}
+
+.blue-option {
+  background-color: blue;
+}
+
+.brown-option {
+  background-color: brown;
+}
+
+.color-pallete {
+  margin-bottom: 15px;
+}
+
+.color-pallete div {
+  display: inline-block;
+  height: 20px;
+  margin-right: 8px;
+  width: 20px;
+}
+
+.details-header {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.green-option {
+  background-color: green;
+}
+
+.information-link {
+  margin-bottom: 20px;
+}
+
+.product {
+  border: 4px solid black;
+  margin: 50px auto;
+  width: 825px;
+}
+
+.product-header {
+  background-color: #f7f7f7;
+  font-size: 22px;
+  margin: 0;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+}
+
+.product-header-tag {
+  background-color: red;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  left: -4%;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  position: absolute;
+  text-transform: uppercase;
+  top: -30%;
+}
+
+.pricing-details {
+  font-size: 24px;
+}
+
+.red-option {
+  background-color: red;
+}
+
+.shipping-details {
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.yellow-option {
+  background-color: yellow;
+}
