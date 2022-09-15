@@ -106,6 +106,10 @@ strong {
   row-gap: 9.6rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--center-v {
   align-items: center;
 }
@@ -158,6 +162,26 @@ strong {
 .link:hover, .link:active {
   border-bottom: 1px solid transparent;
   color: #cf711f;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: none;
+}
+
+.list-icon {
+  color: #e67e22;
+  height: 3rem;
+  width: 3rem;
+}
+
+.list-item {
+  align-items: center;
+  display: flex;
+  font-size: 1.8rem;
+  gap: 1.6rem;
 }
 
 .margin-bottom-md {
